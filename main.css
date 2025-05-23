@@ -646,6 +646,51 @@ hr.rounded {
     font-weight: 500 !important;
 }
 
+.allegrolower>.video_container>.caption>p {
+    width: 200% !important;
+    color: rgba(0, 0, 0, 0.5) !important;
+    font-family: "Avenir Next", Gelasio, Helvetica, sans-serif !important;
+    font-size: 0.7vw !important;
+    font-weight: 500 !important;
+}
+
+.dexteruncut {
+    margin-top: 0.4vw;
+    margin-bottom: 1.0vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.dexteruncut>.video_container {
+    max-width: 30%;
+    max-height: 30%;
+    margin-left: 0.2vw;
+    margin-right: 0.2vw;
+}
+
+.dexteruncut>.video_container>video {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 0.5vw;
+}
+
+.dexteruncut>.video_container>.caption {
+    margin-top: -1vw;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+
+.dexteruncut>.video_container>.caption>p {
+    width: 200% !important;
+    color: rgba(0, 0, 0, 0.5) !important;
+    font-family: "Avenir Next", Gelasio, Helvetica, sans-serif !important;
+    font-size: 0.7vw !important;
+    font-weight: 500 !important;
+}
+
 .barplot {
     margin-top: 1.0vw;
     margin-bottom: 0.0vw;
@@ -1563,6 +1608,23 @@ html.w-mod-touch * {
     }
 
     .allegrolower>.video_container>.caption>p {
+        font-size: 1.4vw !important;
+    }
+
+    .dexteruncut {
+        max-height: 90%;
+    }
+
+    .dexteruncut>.video_container {
+        max-width: 44%;
+        max-height: 22%;
+    }
+
+    .dexteruncut>.video_container>.caption {
+        margin-top: -3vw;
+    }
+
+    .dexteruncut>.video_container>.caption>p {
         font-size: 1.4vw !important;
     }
 
